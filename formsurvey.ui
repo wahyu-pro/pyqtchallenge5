@@ -114,7 +114,8 @@ font: 75 15pt &quot;Arial&quot;;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">padding:1px;
+</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_7">
@@ -125,6 +126,10 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <width>171</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff</string>
     </property>
    </widget>
   </widget>
@@ -241,6 +246,10 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <height>22</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff</string>
+    </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_2">
     <property name="geometry">
@@ -250,6 +259,11 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff
+</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_3">
@@ -261,6 +275,11 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <height>22</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff
+</string>
+    </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_4">
     <property name="geometry">
@@ -270,6 +289,10 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_5">
@@ -281,6 +304,10 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <height>22</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff</string>
+    </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_6">
     <property name="geometry">
@@ -290,6 +317,10 @@ font: 75 15pt &quot;Arial&quot;;</string>
       <width>111</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding:1px;
+background-color:#ffffff</string>
     </property>
    </widget>
   </widget>
@@ -401,14 +432,15 @@ font: 75 15pt &quot;Arial&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>260</x>
+     <x>230</x>
      <y>500</y>
      <width>111</width>
      <height>23</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(255, 255, 255)</string>
+    <string notr="true">background-color:rgb(255, 255, 255);
+border-radius:5px</string>
    </property>
    <property name="text">
     <string>Submit</string>
