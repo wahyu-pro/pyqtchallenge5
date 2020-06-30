@@ -84,7 +84,7 @@ border-bottom:1px solid #000000</string>
 border-bottom:1px solid #000000</string>
     </property>
     <property name="echoMode">
-     <enum>QLineEdit::Password</enum>
+     <enum>QLineEdit::PasswordEchoOnEdit</enum>
     </property>
     <property name="placeholderText">
      <string>Password</string>

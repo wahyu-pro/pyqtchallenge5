@@ -112,7 +112,7 @@ class MainApp(QMainWindow):
 
     def action(self):
         self.username = self.form_login.findChild(QLineEdit, "lineEdit")
-        self.password = self.form_login.findChild(QLineEdit, "lineEdit")
+        self.password = self.form_login.findChild(QLineEdit, "lineEdit_2")
         self.form_login.pushButton.clicked.connect(self.act_login)
         self.form_survey.pushButton.clicked.connect(self.act_survey)
         self.result.pushButton.clicked.connect(self.addToJson)
@@ -120,7 +120,9 @@ class MainApp(QMainWindow):
     def act_login(self):
         if self.username.text() == "" and self.password.text() == "":
             QMessageBox.warning(self, "Warning", "Please input username and password !")
-        elif self.username.text() != "wahyu" and self.password.text() != "wahyu":
+        elif self.username.text() != "wahyu":
+            QMessageBox.warning(self, "Warning", "Username or password wrong !")
+        elif self.password.text() != "wahyu":
             QMessageBox.warning(self, "Warning", "Username or password wrong !")
         else:
             QMessageBox.information(self, "Info", "Login success ...")
