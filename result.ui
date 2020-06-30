@@ -394,8 +394,8 @@ font: 75 15pt &quot;Arial&quot;;</string>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>410</y>
+     <x>180</x>
+     <y>420</y>
      <width>81</width>
      <height>23</height>
     </rect>
@@ -408,6 +408,25 @@ padding:2px;</string>
    </property>
    <property name="text">
     <string>Export to Json</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>420</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#000001;
+background-color:#ffffff;
+border-radius:5px;
+padding:2px;</string>
+   </property>
+   <property name="text">
+    <string>Print to PDF</string>
    </property>
   </widget>
  </widget>
