@@ -120,12 +120,12 @@ class MainApp(QMainWindow):
     def getValues(self):
         itemFavorite = self.itemfavorite
         kelengkapanStok = self.form_survey.spinBox_7.value()
-        toilet = self.form_survey.spinBox_7.value()
-        rakMakanan = self.form_survey.spinBox_7.value()
-        rakBuah = self.form_survey.spinBox_7.value()
-        rakPecahBelah = self.form_survey.spinBox_7.value()
-        refrigrator = self.form_survey.spinBox_7.value()
-        lantaiToko = self.form_survey.spinBox_7.value()
+        toilet = self.form_survey.spinBox.value()
+        rakMakanan = self.form_survey.spinBox_2.value()
+        rakBuah = self.form_survey.spinBox_3.value()
+        rakPecahBelah = self.form_survey.spinBox_4.value()
+        refrigrator = self.form_survey.spinBox_5.value()
+        lantaiToko = self.form_survey.spinBox_6.value()
         lokasiStrategis = self.form_survey.horizontalSlider.value()
         lahanParkir = ""
         if self.form_survey.checkBox.isChecked():
