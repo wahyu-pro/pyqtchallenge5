@@ -26,7 +26,6 @@ class MainApp(QMainWindow):
         self.mainUi()
         self.mainLayout()
         self.action()
-        # self.viewResult()
 
     def mainUi(self):
         self.form_login = FormLogin()
@@ -112,15 +111,20 @@ class MainApp(QMainWindow):
         lokasi.setText(data["LahanParkir"])
 
     def action(self):
-        username = self.form_login.findChild(QLineEdit, "lineEdit")
-        password = self.form_login.findChild(QLineEdit, "lineEdit")
-        self.user = [username.text(), password.text()]
+        self.username = self.form_login.findChild(QLineEdit, "lineEdit")
+        self.password = self.form_login.findChild(QLineEdit, "lineEdit")
         self.form_login.pushButton.clicked.connect(self.act_login)
         self.form_survey.pushButton.clicked.connect(self.act_survey)
         self.result.pushButton.clicked.connect(self.addToJson)
 
     def act_login(self):
-        self.stackedLayout.setCurrentIndex(1)
+        if self.username.text() == "" and self.password.text() == "":
+            QMessageBox.warning(self, "Warning", "Please input username and password !")
+        elif self.username.text() != "wahyu" and self.password.text() != "wahyu":
+            QMessageBox.warning(self, "Warning", "Username or password wrong !")
+        else:
+            QMessageBox.information(self, "Info", "Login success ...")
+            self.stackedLayout.setCurrentIndex(1)
 
     def act_survey(self):
         self.viewResult()
