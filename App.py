@@ -48,6 +48,11 @@ class MainApp(QMainWindow):
         self.widget.setLayout(self.stackedLayout)
         self.setCentralWidget(self.widget)
 
+    def getDataJson(self):
+        with open('data.json', 'r') as respon:
+            data = json.load(respon)
+        return data
+
     def getValCombo(self, index):
         self.itemfavorite = self.form_survey.comboBox.itemText(index)
 
@@ -122,8 +127,10 @@ class MainApp(QMainWindow):
         self.stackedLayout.setCurrentIndex(2)
 
     def addToJson(self):
+        Json = self.getDataJson()
         data = self.getValues()
-        toJson =  json.dumps(data, indent=4)
+        Json.append(data)
+        toJson =  json.dumps(Json, indent=4)
         fwrite = open('data.json', 'w')
         fwrite.write(toJson)
         QMessageBox.information(self, "About", "Export to Json Success")

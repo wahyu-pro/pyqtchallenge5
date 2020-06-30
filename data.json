@@ -1,0 +1,26 @@
+[
+    {
+        "ItemFavorite": "Strawberry",
+        "KelengkapanStok": 12,
+        "Toilet": 12,
+        "RakMakanan": 12,
+        "RakBuah": 12,
+        "RakPecahBelah": 12,
+        "Refrigrator": 12,
+        "LantaiToko": 12,
+        "LokasiStrategis": 48,
+        "LahanParkir": "Nyaman"
+    },
+    {
+        "ItemFavorite": "Pepaya",
+        "KelengkapanStok": 12,
+        "Toilet": 12,
+        "RakMakanan": 12,
+        "RakBuah": 12,
+        "RakPecahBelah": 12,
+        "Refrigrator": 12,
+        "LantaiToko": 12,
+        "LokasiStrategis": 47,
+        "LahanParkir": "Kurang"
+    }
+]

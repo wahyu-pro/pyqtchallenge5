@@ -129,7 +129,8 @@ font: 75 15pt &quot;Arial&quot;;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff</string>
+background-color:#ffffff;
+color:#000000</string>
     </property>
    </widget>
   </widget>
@@ -248,7 +249,8 @@ background-color:#ffffff</string>
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff</string>
+background-color:#ffffff;
+color:#000000</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_2">
@@ -262,7 +264,8 @@ background-color:#ffffff</string>
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff
+background-color:#ffffff;
+color:#000000
 </string>
     </property>
    </widget>
@@ -277,7 +280,8 @@ background-color:#ffffff
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff
+background-color:#ffffff;
+color:#000000
 </string>
     </property>
    </widget>
@@ -292,7 +296,8 @@ background-color:#ffffff
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff</string>
+background-color:#ffffff;
+color:#000000</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_5">
@@ -306,7 +311,8 @@ background-color:#ffffff</string>
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff</string>
+background-color:#ffffff;
+color:#000000</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_6">
@@ -320,7 +326,9 @@ background-color:#ffffff</string>
     </property>
     <property name="styleSheet">
      <string notr="true">padding:1px;
-background-color:#ffffff</string>
+background-color:#ffffff;
+color:#000000
+</string>
     </property>
    </widget>
   </widget>
