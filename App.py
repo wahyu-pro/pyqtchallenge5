@@ -58,7 +58,7 @@ class MainApp(QMainWindow):
 
     def mainLayout(self):
         self.widget = QWidget()
-        self.setFixedSize(600,700)
+        # self.setFixedSize(600,700)
         self.widget.setStyleSheet("background-color: rgb(46, 109, 255)")
         self.widget.setLayout(self.stackedLayout)
         self.setCentralWidget(self.widget)
